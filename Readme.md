@@ -57,7 +57,7 @@ cd shopping-cart-api
 ### 2️⃣ Install Dependencies and add .env file 
 
 ```
-.env/ POST = 3000
+.env/ PORT = 3000
 npm install
 ```
 
