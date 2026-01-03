@@ -1,9 +1,10 @@
-# 🛒 Shopping Cart API (In-Memory)
+# The Shopping Cart API
 
 > A lightweight RESTful API to manage a user's temporary shopping cart using in-memory storage.
 > This project is designed as a backend assignment demonstrating clean architecture, REST principles, and proper error handling.
 
-# 📌 Features
+
+# Features
 
 - Add items to cart or update quantity
 - Retrieve cart items with total price calculation
@@ -12,7 +13,7 @@
 - Proper HTTP status codes & error handling
 ---
 
-# 🧰 Tech Stack
+# Tech Stack
 
 - Node.js
 - Express.js
@@ -44,7 +45,7 @@ Shopping-Cart/
 ```
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ### 1️⃣ Clone the Repository
 
@@ -69,8 +70,8 @@ npm start
 > http://localhost:3000
 
 ---
-# 📌 API Endpoints
-## ➕ Add Item to Cart
+# API Endpoints
+## Add Item to Cart
 
 ### POST /cart/add
 - Request Body
@@ -83,7 +84,7 @@ npm start
 }
 ```
 
-## 📦 Get Cart Items
+## Get Cart Items
 ### GET /cart
 - Response:
 
@@ -104,14 +105,14 @@ npm start
 }
 
 ```
-## ❌ Remove Item from Cart
+## Remove Item from Cart
 ### DELETE /cart/:itemId
 ```
 DELETE /cart/101
 ```
 ---
 
-## 🔹Using cURL (Git Bash / WSL / Linux)
+## Testing Using cURL (Git Bash)
 
 - cURL AddItem
 ```
@@ -132,8 +133,35 @@ curl -X GET http://localhost:3000/cart
 
 - cURL DeleteItem
 ```
-url -X DELETE http://localhost:3000/cart/101
+curl -X DELETE http://localhost:3000/cart/:ItemId
 ```
+![WhatsApp Image 2026-01-03 at 21 09 58](https://github.com/user-attachments/assets/20d418df-e64a-4587-a133-c21d3763b61a)
+---
+
+
+## 🔹Testing Using POSTMAN
+
+- POST /cart/add
+```
+http://localhost:3000/cart/add
+```
+
+- GET /cart
+```
+http://localhost:3000/cart
+```
+
+- DELETE /cart/:ItemID
+```
+http://localhost:3000/cart/:itemID
+```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bdf3fba9-d245-4648-be44-872459433293" width="400" />
+  <img src="https://github.com/user-attachments/assets/dc93526d-ae52-41a9-b3b5-30c0b53b549b" width="400" />
+  <img src="https://github.com/user-attachments/assets/b512fbb1-dde6-4340-87c5-ebe0fc38c409" width="400" />
+</p>
+
 ---
 
 ## ⚠️ Error Handling
