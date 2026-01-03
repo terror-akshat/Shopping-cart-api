@@ -17,7 +17,7 @@
 
 - Node.js
 - Express.js
-- In-memory storage using JavaScript Map
+- In-memory storage using JavaScript (Map)
 ---
 
 # Folder Structure
@@ -50,7 +50,7 @@ Shopping-Cart/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/terror-akshat/Shopping-cart-api.git
+git clone https://github.com/fusionAMAN/Shopping-Cart-API.git
 cd shopping-cart-api
 ```
 
@@ -180,3 +180,8 @@ http://localhost:3000/cart/:itemID
 - ✔ Proper folder structure
 - ✔ Error handling
 - ✔ README with test instructions
+---
+
+## Status: 🟢 COMPLETE - Ready for Evaluation
+## Repository: https://github.com/fusionAMAN/Shopping-Cart-API.git
+## Contact: [40guptaaman@gmail.com]
