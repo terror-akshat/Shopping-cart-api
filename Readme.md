@@ -49,7 +49,7 @@ Shopping-Cart/
 ### 1️⃣ Clone the Repository
 
 ```
-git clone 
+git clone https://github.com/terror-akshat/Shopping-cart-api.git
 cd shopping-cart-api
 ```
 
