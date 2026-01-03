@@ -19,6 +19,32 @@
 - In-memory storage using JavaScript Map
 ---
 
+# Folder Structure
+
+```
+Shopping-Cart/
+│
+├── controllers/
+│   └── cart.controller.js
+│
+├── routes/
+│   └── cart.routes.js
+│
+├── service/
+│   └── cart.service.js
+│
+├── node_modules/
+│
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── server.js
+└── Readme.md
+
+```
+---
+
 # 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
