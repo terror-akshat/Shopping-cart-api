@@ -41,7 +41,6 @@ Shopping-Cart/
 ├── package-lock.json
 ├── server.js
 └── Readme.md
-
 ```
 ---
 
